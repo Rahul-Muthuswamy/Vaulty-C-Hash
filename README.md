@@ -1,48 +1,75 @@
-<<<<<<< HEAD
-<p align="center">
-   <img src="banner.png">
-</p>
+﻿# 🔐 Vaulty-C-Hash
 
-## Summary: ##
+**Vaulty-C-Hash** is a minimal, secure, and portable password manager built in **C#**.  
+It focuses on strong encryption, simplicity, and complete offline protection — your passwords never leave your device.
 
-Minimal, secure and portable password manager
-<p align="center">
-	<a href="https://github.com/hellzerg/lain/releases/download/3.3/Lain-3.3.exe" target="_blank">
-		<img src="download-button.png">
-	</a>
-</p> 
+---
 
-## Features: ##
+## ⚙️ Features
 
-* Features AES256 and SHA256 cryptography
-* Advanced password generator included
-* Automatic lock when inactive
-* Start with Windows option
-* Custom salt override (using command-line or a file)
+- 🔒 **AES-256 & SHA-256 Encryption** for strong data security  
+- 🧬 **Advanced Password Generator** for random, complex passwords  
+- 🕒 **Auto-Lock on Inactivity** to protect against idle access  
+- 💾 **Portable Mode** – runs directly without installation  
+- ⚡ **Start with Windows** for quick access  
+- 🧩 **Custom Salt Support** (via command-line or file)  
+- 🔑 **U2F Key Integration** *(🚧 Under Heavy Construction)*  
+- 📱 **Authenticator App Support (TOTP)** *(🚧 Under Heavy Construction)*  
+- 🎭 **Decoy Credentials System** *(🚧 Under Heavy Construction)*  
 
-## Downloads: ##
-https://github.com/hellzerg/lain/releases
+---
 
-## Shortcuts: ##
-https://github.com/hellzerg/lain/blob/master/SHORTCUTS.md
+## 🖥️ Compatibility
 
-## Custom salt support: ##
-https://github.com/hellzerg/lain/blob/master/SALTS.md
+- **OS:** Windows 7, 8.1, 10, 11  
+- **Framework:** .NET Framework 4.5.2 or later  
+- ❌ Not supported on Windows XP / Vista  
 
-## Screenshots: ##
-https://github.com/hellzerg/lain/blob/master/IMAGES.md
+---
 
-## Compatibility: ##
+## 🧾 Details
 
-* .NET Framework 4.5.2
-* Compatible with Windows 7, 8.1, 10
-* Does not work with Windows XP or Vista
+- **Version:** 4.0 *(Vaulty Reforged Edition)*  
+- **Release Date:** October 2025  
+- **Developer:** Muthuswamy M  
+- **SHA256 Checksum:** `726D6E9704740AF44C7C702D8D75C84A12ABA479BCA80B35504AFA1E5D5B70D5`
 
-## Details: ##
+---
 
-* Latest version: 3.3
-* Released: October 9, 2023
-* SHA256: 726D6E9704740AF44C7C702D8D75C84A12ABA479BCA80B35504AFA1E5D5B70D5
-=======
-# Vaulty-C-Hash
->>>>>>> e218c2ac60f3dbe69989a7e814281b462f45df56
+## 🧰 Command-Line Options
+
+| Option | Description |
+|---------|-------------|
+| `--salt-file <path>` | Use an external file as custom salt |
+| `--salt <value>` | Provide custom salt directly |
+| `--autolock <minutes>` | Set inactivity auto-lock time |
+| `--usb-key <id>` | Restrict vault access to a specific USB device |
+
+---
+
+## 🛡️ Security Focus
+
+- 100% **Offline Storage** – no cloud sync, no telemetry  
+- Full **User Control** over keys, salts, and settings  
+- Designed with **Defense in Depth** – multiple protection layers  
+
+---
+
+## 🚀 Coming Soon
+
+- 🔑 **U2F / FIDO2 Hardware Key Authentication**  
+- 📱 **Authenticator App (TOTP) Integration**  
+- 🎭 **Decoy Credentials System**  
+- 🧬 **Biometric Unlock Support**  
+- 🌐 **Browser Extension for Auto-Fill**  
+- ☁️ **Cloud-less Encrypted Backup**  
+
+---
+
+## 📜 License
+
+Licensed under the **MIT License** – free to use, modify, and distribute with attribution.
+
+---
+
+Developed with ❤️ by **Muthuswamy M**
