@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
    <img src="banner.png">
 </p>
@@ -42,3 +43,6 @@ https://github.com/hellzerg/lain/blob/master/IMAGES.md
 * Latest version: 3.3
 * Released: October 9, 2023
 * SHA256: 726D6E9704740AF44C7C702D8D75C84A12ABA479BCA80B35504AFA1E5D5B70D5
+=======
+# Vaulty-C-Hash
+>>>>>>> e218c2ac60f3dbe69989a7e814281b462f45df56
