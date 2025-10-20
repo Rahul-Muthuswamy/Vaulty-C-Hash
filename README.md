@@ -68,7 +68,7 @@ It focuses on strong encryption, simplicity, and complete offline protection —
 
 ## 📜 License
 
-Licensed under the **MIT License** – free to use, modify, and distribute with attribution.
+Licensed under the **GLP 3.0** – free to use, modify, and distribute with attribution.
 
 ---
 
